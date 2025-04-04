@@ -1,0 +1,39 @@
+/* Selector 1: Element selector (h1) */
+h1 {
+    color: #2c3e50; /* Dark blue color */
+    font-family: 'Arial', sans-serif; /* Different font */
+    text-align: center;
+    margin-top: 20px; /* Margin for spacing */
+}
+
+/* Selector 2: Class selector (.main-title) */
+.main-title {
+    font-size: 36px;
+    padding: 10px; /* Padding inside the element */
+    border-bottom: 2px solid #e74c3c; /* Red border under the title */
+}
+
+/* Selector 3: ID selector (#image-container) */
+#image-container {
+    margin: 30px auto; /* Center the container with top/bottom margin */
+    padding: 15px; /* Padding around the image */
+    border: 1px dashed #3498db; /* Blue dashed border */
+    width: 350px; /* Fixed width for aesthetics */
+    text-align: center;
+}
+
+/* Style the image */
+img {
+    width: 100%; /* Responsive image width */
+    border: 3px solid #27ae60; /* Green border around the image */
+    padding: 5px; /* Padding between image and border */
+}
+
+/* Bonus: Style the paragraph for readability */
+p {
+    color: #555;
+    font-family: 'Georgia', serif; /* Different font */
+    font-size: 18px;
+    line-height: 1.6; /* Improved readability */
+    margin: 20px; /* Spacing around the paragraph */
+}
